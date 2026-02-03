@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyHub - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>My Notes</h2>
+
+    <input type="text" id="noteTitle" placeholder="Note Title">
+    <textarea id="noteContent" placeholder="Write your note here..."></textarea>
+    <button onclick="addNote()">Add Note</button>
+
+    <h3>Saved Notes</h3>
+    <ul id="notesList"></ul>
+
+    <button onclick="logout()" class="logout">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
